@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtFirstName"
+            android:layout_margin="10dp"
+            android:background="#FF33FF"
+
+            />
+        <TextView
+            android:id="@+id/txtLastName"
+            android:layout_below="@+id/etFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="LastName"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtLastName"
+            android:layout_margin="10dp"
+            android:background="#FF33FF"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etLastName"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnOk"
+            android:text="Ok"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
